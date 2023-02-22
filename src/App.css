@@ -7,7 +7,7 @@
 }
 .header {
     background-color: #ff742b;
-    padding: 10px;
+    padding: 11px;
 }
 
 .innerHeader{
@@ -15,20 +15,33 @@
 }
 
 .logoimg {
-    height: 49px;
-
+    height: 35px;
 }
 
 .title1 {
     float: left;
     font-family: 'Anek Gujarati', sans-serif;
-    font-size: 25px;
-    margin: -54px 0px 0px 67px;
+    font-size: 20px;
+    margin: -40px 0px 0px 51px;
 }
 
 .title2 {
     float: left;
     font-family: 'Anek Gujarati', sans-serif;
-    font-size: 25px;
-    margin: -30px 0px 0px 67px;
+    font-size: 20px;
+    margin: -22px 0px 0px 50px;
+}
+
+.settingIcon {
+    float: right;
+    height: 31px;
+    margin: -34px 86px 0px 0px;
+}
+
+.settingWord {
+    float: right;
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    margin: -32px -5px 0px 0px;
 }
