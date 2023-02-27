@@ -2,9 +2,15 @@ import React from 'react'
 import '../App.css';
 import logo from '../assets/hack-logo.png';
 import icon from '../assets/icon-setting.png';
-import { SearchBox } from 'react-instantsearch-dom';
+import { FaSistrix } from "react-icons/fa";
 
-function Navbar() {
+function Navbar(props) {
+  const handleChange = (event) => {
+    props.setInput(event.target.value)
+  }
+
+  
+
   return (
     
     <div className="header">
@@ -18,7 +24,11 @@ function Navbar() {
         <div className="title2">
           Hacker News
         </div>
-        <div className="searchbar"></div>
+        <div className="searchContainer">
+          <FaSistrix className="searchIcon" />
+
+          <input type="text" value={props.input} onChange={handleChange} className="searchInput" name="search" placeholder="Search stories by title, url, or author"></input>
+        </div>
         <div className="icon">
           <img className="settingIcon" src={icon} />
         </div>

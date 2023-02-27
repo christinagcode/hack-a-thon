@@ -5,6 +5,12 @@
     margin: 0;
     padding: 0;
 }
+
+.ColumnOne {
+    border-color: black;
+    background-color: rgb(13, 89, 156);
+}
+
 .header {
     background-color: #ff742b;
     padding: 11px;
@@ -31,6 +37,29 @@
     font-size: 20px;
     margin: -22px 0px 0px 50px;
 }
+
+.searchIcon {
+    background-color: white;
+    height: 45px;
+
+}
+
+.searchContainer {
+    overflow: hidden;
+    margin: -45px 0px 0px 300px;    
+}
+
+
+.searchContainer input[type=text] {
+    padding: 4px;
+    margin-top: 8px;
+    height: 45px;
+    width: 90%;
+    font-size: 17px;
+    border: none;
+    font-family: 'Anek Gujarati', sans-serif;
+  }
+  
 
 .settingIcon {
     float: right;
