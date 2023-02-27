@@ -26,10 +26,10 @@ function App() {
 
   return (
     <div className="App">
-      <ColumnOne />
+    
       <Navbar input={input} setInput={setInput} />
       <Body />
-      <ColumnTwo />
+   
     </div>
   );
 }

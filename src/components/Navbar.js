@@ -24,9 +24,10 @@ function Navbar(props) {
         <div className="title2">
           Hacker News
         </div>
-        <div className="searchContainer">
+        <div className="sIconBackground">
           <FaSistrix className="searchIcon" />
-
+          </div>
+        <div className="searchContainer">
           <input type="text" value={props.input} onChange={handleChange} className="searchInput" name="search" placeholder="Search stories by title, url, or author"></input>
         </div>
         <div className="icon">

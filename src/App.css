@@ -2,58 +2,65 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.ColumnOne {
-    border-color: black;
-    background-color: rgb(13, 89, 156);
+    margin: 0px 20px 0px 20px;
 }
 
 .header {
     background-color: #ff742b;
-    padding: 11px;
+    padding: 6px;
+    height: 65px;
 }
 
 .innerHeader{
     background-color:#ff742b;
 }
 
+
 .logoimg {
     height: 35px;
+    margin: 7px 0px 0px -34px;
 }
 
 .title1 {
     float: left;
     font-family: 'Anek Gujarati', sans-serif;
     font-size: 20px;
-    margin: -40px 0px 0px 51px;
+    margin: -40px 0px 0px 33px;
 }
 
 .title2 {
     float: left;
     font-family: 'Anek Gujarati', sans-serif;
     font-size: 20px;
-    margin: -22px 0px 0px 50px;
+    margin: -22px 0px 0px 33px;
 }
 
 .searchIcon {
-    background-color: white;
-    height: 45px;
+    height: 30px;
+    width: 30px;
+    margin: -15px 10px 0px -13px ;
+    color:#ff742b;
+}
 
+.sIconBackground{
+    background-color: white;
+    width: 30px;
+    height: 3px;
+    padding: 23px;
+    margin: -43px -20px 0px 5px;
+    float: left;
 }
 
 .searchContainer {
-    overflow: hidden;
-    margin: -45px 0px 0px 300px;    
+    width: 1110px;
+    height: 43px;
+    margin: -43px 0px 0px 180px;
 }
 
 
 .searchContainer input[type=text] {
     padding: 4px;
-    margin-top: 8px;
-    height: 45px;
+    height: 46px;
     width: 90%;
     font-size: 17px;
     border: none;
@@ -63,14 +70,14 @@
 
 .settingIcon {
     float: right;
-    height: 31px;
-    margin: -34px 86px 0px 0px;
+    height: 25.4px;
+    margin: -34px 37px 0px 0px;
 }
 
 .settingWord {
     float: right;
     font-family: 'Anek Gujarati', sans-serif;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 200;
-    margin: -32px -5px 0px 0px;
+    margin: -32px -20px 0px 0px;
 }
