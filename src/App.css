@@ -5,13 +5,26 @@
     margin: 0;
     padding: 0;
 }
+body {
+    color:black;
+    font-family: Verdana,Geneva,sans-serif;
+}
 .header {
     background-color: #ff742b;
     padding: 10px;
+    width: 100%;
 }
 
 .innerHeader{
     background-color:#ff742b;
+    display: flex;
+    flex-flow: row nowrap;
+    
+    align-items: center;
+    gap: 15px;
+    /* position: relative; */
+
+
 }
 
 .logoimg {
@@ -20,15 +33,110 @@
 }
 
 .title1 {
-    float: left;
+    /* float: left; */
     font-family: 'Anek Gujarati', sans-serif;
-    font-size: 25px;
-    margin: -54px 0px 0px 67px;
+    font-size: 14px;
+    line-height: 1;
+    /* margin: -54px 0px 0px 67px; */
 }
 
-.title2 {
+/* .title2 {
     float: left;
     font-family: 'Anek Gujarati', sans-serif;
     font-size: 25px;
     margin: -30px 0px 0px 67px;
+} */
+
+.select {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+select {
+    width: fit-content;
+    margin-left: 10px;
+    margin-right: 5px;
+    font: inherit;
+    font-size: 10px;
+
+}
+
+
+#search {
+    width: 100%;
+    height: 42px;
+    padding: 16px 144px 16px 54px;
+    /* align-self: center; */
+    /* grid-area: footer; */
+}
+.Story,
+.Story_container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.Story_title 
+a:first-child {
+    margin-right: 4px;
+}
+.Story_seperator {
+    padding: 0 5px;
+}
+.Story_title a {
+    color: #000;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+article.Story {
+    font-size: 14px;
+    min-height: 40px;
+    padding: 0 16px;
+    flex-wrap: wrap;
+}
+.Story_data {
+    margin: 4px 0;
+}
+.Story_title {
+    width: 100%;
+    position: relative;
+    margin-bottom: 4px;
+}
+.Story_link {
+    color: #828282;
+    font-size: 13px;
+    word-break: break-all;
+}
+.Story_meta {
+    font-size: 10.6667px;
+
+}
+.Story_meta,
+.Story_meta a {
+    color: #696969;
+    text-decoration: none;
+}
+
+.Footer_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 4px 8px 24px;
+    color: inherit;
+    font-family: inherit;
+}
+.Footer_list li {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    padding: 4px;
+}
+.Footer_list a {
+    background-color: transparent;
+    text-decoration: none;
 }
